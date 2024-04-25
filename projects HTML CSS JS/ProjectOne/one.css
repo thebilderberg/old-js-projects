@@ -1,0 +1,123 @@
+* {
+  font-family: sans-serif;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+header {
+  background-color: #010911;
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  overflow: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.linkHeader {
+  padding: 30px;
+  bottom: 30px;
+  text-decoration: none;
+  color: #e7eef0;
+  font-size: larger;
+}
+
+
+body {
+  margin: 0;
+}
+
+
+.textHeader {
+  font-family: IMPACT;
+  color: #ebf5ec;
+  padding: 0px 10px;
+}
+
+
+.textHeader:hover {
+  color: #1c49bb;
+  -moz-transition: all 0.7s ease-in-out;   /* плавный переход */
+
+  }
+
+
+.cunteiner {
+  background-color: #ccc9c9;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 110px;
+}
+
+.inviser {
+  padding: 10px;
+}
+
+
+.twoButton {
+  width: 100px;
+  border-radius: 10px;
+}
+
+
+.twoButton:hover {
+  background-color: #85a2ec;
+  -moz-transition: all 0.2s ease-in-out;   /* плавный переход */
+  color: #fefeff;
+}
+
+
+.textReturn {
+  height: 97px;
+  width: 300px;
+  border-radius: 10px;
+}
+
+
+.homeLink {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  background-color: #b61313;
+  position: fixed;
+  left: 90%;
+  top: 550px;
+  text-align: center;
+}
+.homeLinkID {
+  display: block;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  color: #e7eef0;
+}
+
+footer {
+  background-color: #010d01;
+  font-family: sans-serif;
+  color: #f0f3fa;
+  height: 100px;
+  width: 100%;
+  margin: 0;
+  overflow: auto;
+  padding: 0px 10px;
+}
+
+
+.java{
+  background-color: #e7eef0;
+  width: 100px;
+  height: 100px;
+  font-family: Verdana;
+  border-radius: 10px;
+}
+
+
+.java:hover {
+  background-color: #1c49bb;
+  color: #010d01;
+  -moz-transition: all 0.7s ease-in-out;   /* плавный переход */
+  color: #fefeff;
+}

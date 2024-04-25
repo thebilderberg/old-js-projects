@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+}
+
+.menu {
+    position: absolute;
+    width: 40vh;
+    height: 100vh;
+}
+
+nav {
+    position: fixed;
+    width: 30vh;
+    height: 100vh;
+    background-color: #0a0101;
+    left: -30vh;
+    transition: all 0.7s ease-in-out;
+    color: #eaefeb;
+}
+nav.hide{
+    left:0;
+    transition: all 0.7s ease-in-out;
+}
+.iconBurger {
+    position: fixed;
+    width: 10vh;
+    left: 0;
+    height: 10vh;
+    transition: all 0.7s ease-in-out;
+    border-radius: 5px;
+}
+.iconBurger.hide {
+    left: 30vh;
+    transition: all 0.7s ease-in-out;
+}
+
+.iconBurger span, .iconBurger:after, .iconBurger:before {
+    width: 100%;
+    height: 1vh;
+    background-color: #cccccc;
+    position: absolute;
+    margin: 0 auto;
+    text-align: center;
+}
+.iconBurger:after, .iconBurger:before {
+    content: '';
+}
+.iconBurger:after {
+    bottom: 2vh;
+    transition: 0.4s;
+}
+.iconBurger:before {
+    top: 2vh;
+    transition: 0.4s;
+}
+.iconBurger span {
+    top: 4.5vh;
+    transition: 0.4s;
+}
+
+.iconBurger.hide span {
+    opacity:0;
+    transition: 0.5s;
+}
+.iconBurger.hide:after {
+    transform: rotate(38deg);
+    top: 4vh;
+    transition: 0.4s;
+}
+.iconBurger.hide:before {
+    transform: rotate(-38deg);
+    top: 4vh;
+    transition: 0.4s;
+}
+
+
+
+
+.main {
+    background: rgb(22,8,52);
+    background: radial-gradient(circle, rgba(22,8,52,1) 25%, rgba(79,3,44,1) 100%);
+    color: #eaefeb;
+    height: 100vh;
+    text-align: center;
+    padding: 20vh;
+}
+
+.main h1 {
+    font-size: 50px;
+}
+
+
+.container {
+    text-align: center;
+    background: rgb(22,8,52);
+    background: radial-gradient(circle, rgba(22,8,52,1) 25%, rgba(79,3,44,1) 100%);
+    color: #eaefeb;
+    height: 100vh;
+    padding: 20vh;
+}
+.container h1 {
+    font-size: 50px;
+}
+.form {
+    width: 700px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+.up {
+    text-align: center;
+    height: 100vh;
+    padding: 20vh 0 0 0;
+    background: rgb(22,8,52);
+    background: radial-gradient(circle, rgba(22,8,52,1) 25%, rgba(79,3,44,1) 100%);
+    color: #eaefeb;
+    }
+.up h1 {
+    font-size: 100px;
+}
+.up h2 {
+    font-size: 50px;
+}
+.up h3 {
+    font-size: 30px;
+}
+.cali {
+    background: url(../fata.png);
+    width: 300px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 150px;
+}
+
+.xxx {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.wallImg {
+    height: 150px;
+}
+
+.positionA {
+    position: absolute;
+    top: 5vh;
+    left: 50vh;
+}
+.positionB {
+    position: absolute;
+    top: 60vh;
+    left: 60vh;
+}
+.positionC {
+    position: absolute;
+    top: 10vh;
+    left: 150vh;
+}
+.positionD {
+    position: absolute;
+    top: 70vh;
+    left: 180vh;
+}
+.positionE {
+    position: absolute;
+    top: 40vh;
+    left: 5vh;
+}
+
+.airMax {
+
+}
+
+#air {
+    position: absolute;
+    top: 5vh;
+    left: 50vh;
+
+}
+#air2 {
+    position: absolute;
+    top: 60vh;
+    left: 60vh;
+}
+#air3 {
+    position: absolute;
+    top: 10vh;
+    left: 150vh;
+}
+#air4 {
+    position: absolute;
+    top: 70vh;
+    left: 180vh;
+}
+#air5 {
+    position: absolute;
+    top: 40vh;
+    left: 5vh;
+}
+

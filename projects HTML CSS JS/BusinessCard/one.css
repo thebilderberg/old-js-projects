@@ -1,0 +1,412 @@
+
+* {
+  font-family: sans-serif;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+header {
+  background: rgb(131,58,180);
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  overflow: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.linkHeader {
+  padding: 30px;
+  bottom: 30px;
+  text-decoration: none;
+  color: #e7eef0;
+  font-size: larger;
+}
+
+
+body {
+  margin: 0;
+}
+
+.imgEm {
+  font-size: x-large;
+  width: 100%;
+  background-image: url(atlants.jpg);
+  background-repeat: round;
+  opacity: 0;
+  /*transform: translateY(20px);*/
+  height: 1280px;
+}
+
+.imgEm p {
+  padding: 350px 0 0 0;
+  color: #e7eef0;
+}
+
+.imgEm.element-show {
+  font-size: xxx-large;
+  opacity: 1;
+  transition: all 1.5s;
+  transform: skew(1);
+}
+
+
+.textHeader {
+  color: #ebf5ec;
+  padding: 0px 10px;
+}
+
+
+.textHeader:hover {
+  color: #1c49bb;
+  -moz-transition: all 0.7s ease-in-out;   /* плавный переход */
+}
+
+
+.cunteiner {
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 25%, rgba(148,187,233,1) 100%);
+  margin: 0 auto;
+  text-align: center;
+}
+
+.blockProgrammUnder {
+  padding: 110px;
+}
+
+.java{
+  display: inline-block;
+  color: #eaefeb;
+  font-weight: 700;
+  text-decoration: none;
+  user-select: none;
+  padding: .5em 2em;
+  outline: none;
+  border: 2px solid;
+  border-radius: 1px;
+  transition: 0.2s;
+  background: rgb(131,58,180);
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+  border-radius: 15px;
+  width: 100px;
+  height: 50px;
+}
+
+
+
+.java:hover {
+  background-color: #b61313;
+  color: #010d01;
+  -moz-transition: all 0.7s ease-in-out;   /* плавный переход */
+  color: #fefeff;
+}
+
+
+.dostoevsky {
+  font-family: monospace;
+}
+
+
+.inviser {
+  padding: 10px;
+  color: #090909;
+}
+
+
+
+.twoButton {
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  vertical-align: middle;
+  text-decoration: none;
+  border: .5em solid rgba(0,0,0,0);
+  border-radius: 100%;
+  background: rgb(245,245,245) linear-gradient(rgb(245,245,245), rgb(188,192,193)) 50% 50% / calc(1.5em + .5em*2) calc(1.5em + .5em*2);
+  box-shadow:
+          inset 0 -3px 10px rgba(255,255,255,1),
+          inset 0 3px 10px rgba(0,0,0,.4),
+          0 2px 4px rgba(0,0,0,.9);
+}
+
+
+.twoButton:hover {
+  background-color: #b61313;
+  -moz-transition: all 0.2s ease-in-out;   /* плавный переход */
+  color: #fefeff;
+}
+
+.textDown {
+  position: absolute;
+  font-family: monospace;
+  color: #111111;
+}
+
+
+.textReturn {
+  height: 50px;
+  width: 50%;
+  border-radius: 20px;
+  background-color: #f8f6f6;
+}
+
+
+.homeLink {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  position: fixed;
+  left: 90%;
+  top: 75%;
+  text-align: center;
+  background: rgb(131,58,180);
+}
+
+.homeLinkID {
+  display: block;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  color: #f3f3f3;
+  position: absolute;
+}
+
+footer {
+  background-color: #010d01;
+  color: #f0f3fa;
+  height: 100px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.iconBilderberg {
+  padding: 30px 0 0 0;
+}
+
+.footerPartners {
+  height: 40px;
+  padding: 30px 0 0 0;
+}
+
+@media only screen
+and (device-width : 375px)
+and (device-height : 812px)
+and (-webkit-device-pixel-ratio : 3) {
+  * {
+    font-family: sans-serif;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    font-size: larger;
+  }
+
+  header {
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    width: 100%;
+    height: 200px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    overflow: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .linkHeader {
+    padding: 30px;
+    bottom: 30px;
+    text-decoration: none;
+    color: #e7eef0;
+    font-size: larger;
+  }
+
+
+  body {
+    margin: 0;
+  }
+
+  .imgEm {
+    width: 100%;
+    background-image: url(state.jpg);
+    opacity: 0;
+    transform: translateY(20px);
+    height: 1280px;
+    font-size: small;
+  }
+
+  .imgEm p {
+    color: #f1f1f0;
+    padding: 600px 0 0 0;
+  }
+
+  .imgEm.element-show {
+    opacity: 1;
+    transition: all 1.5s;
+    transform: skew(1);
+    font-size: 80px;
+  }
+
+  .textHeader {
+    color: #ebf5ec;
+    padding: 0px 10px;
+  }
+
+
+  .textHeader:hover {
+    color: #1c49bb;
+    -moz-transition: all 0.7s ease-in-out;   /* плавный переход */
+  }
+
+
+  .cunteiner {
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    margin: 0 auto;
+    text-align: center;
+    padding: 210px 0 0 0;
+  }
+
+
+  .blockProgramm {
+    height: 1850px;
+  }
+
+  .blockProgrammUnder {
+    padding: 50% 0 0 0;
+  }
+
+  .java{
+    display: inline-block;
+    color: #eaf1eb;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    font-weight: 700;
+    text-decoration: none;
+    user-select: none;
+    padding: .5em 2em;
+    outline: none;
+    border: 2px solid;
+    border-radius: 1px;
+    transition: 0.2s;
+    border-radius: 15px;
+    width: 350px;
+    height: 100px;
+  }
+
+
+
+  .java:hover {
+    background-color: #b61313;
+    color: #010d01;
+    -moz-transition: all 0.7s ease-in-out;   /* плавный переход */
+    color: #fefeff;
+  }
+
+
+  .dostoevsky {
+    font-family: monospace;
+  }
+
+
+  .inviser {
+    padding: 10px;
+    color: #021f07;
+  }
+
+
+
+  .twoButton {
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    vertical-align: middle;
+    text-decoration: none;
+    border: .5em solid rgba(0,0,0,0);
+    border-radius: 100%;
+    background: rgb(245,245,245) linear-gradient(rgb(245,245,245), rgb(188,192,193)) 50% 50% / calc(1.5em + .5em*2) calc(1.5em + .5em*2);
+    box-shadow:
+            inset 0 -3px 10px rgba(255,255,255,1),
+            inset 0 3px 10px rgba(0,0,0,.4),
+            0 2px 4px rgba(0,0,0,.9);
+  }
+
+
+  .twoButton:hover {
+    background-color: #b61313;
+    -moz-transition: all 0.2s ease-in-out;   /* плавный переход */
+    color: #fefeff;
+  }
+
+  .textDown {
+    position: absolute;
+    font-family: monospace;
+    color: #180d02;
+  }
+
+
+  .textReturn {
+    height: 200px;
+    width: 90%;
+    border-radius: 20px;
+    background-color: #e8ece9;
+  }
+
+
+  .homeLink {
+    display: none;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    position: fixed;
+    left: 75%;
+    top: 80%;
+    text-align: center;
+    background-color: #3a3835;
+
+  }
+  .homeLinkID {
+    display: none;
+    width: 100px;
+    height: 100px;
+    line-height: 200px;
+    color: #f3f3f3;
+    left: 30px;
+    position: absolute;
+
+  }
+
+
+
+  footer {
+    background-color: #010d01;
+    color: #f0f3fa;
+    height: 200px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .iconBilderberg {
+    padding: 30px 0 0 0;
+  }
+
+  .footerPartners {
+    height: 60px;
+    padding: 50px 0 0 0;
+  }
+
+
+}
+
+
+
+
+
+
+

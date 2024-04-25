@@ -1,0 +1,188 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+
+body {
+    background: #1e1e1e url(cyber.jpg);
+}
+
+
+header {
+    height: 100px;
+    width: 100%;
+    background-color: #9605e7ab;
+    color: #000713;
+    position: fixed;
+    left: 0;
+    top: 0;
+    text-decoration: none;
+    font-size: larger;
+    font-family: Arial;
+}
+.title {
+    position: absolute;
+    top: 30px;
+    left: 5px;
+    font-family: "Bauhaus 93";
+    font-size: larger;
+}
+
+
+.cheezBurger {
+    position: fixed;
+    top: 25px;
+    left: 80%;
+    height: 50px;
+    width: 50px;
+}
+.cheezBurgerInfo {
+    position: absolute;
+    left: -76px;
+    top: 60px;
+    text-align: center;
+    /*background-color: #0d1eaa;*/
+    height: 100px;
+    width: 200px;
+    border-radius: 5px;
+    display: grid;
+    transform: scaleY(0);
+    transition: transform 400ms ease 0ms;
+}
+.cheezBurgerInfo.hide {
+    transform: scaleY(1);
+    transition: transform 400ms ease 0ms;
+}
+.cheezBurgerInfoHref {
+    color: #ffffff;
+}
+.cheezBurgerInfoHref:hover {
+    color: #b61313;
+    transition: all 0.7s ease-in-out;
+}
+.cheezBurgerButton {
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.cheezBurgerButton:hover{
+    background-color: #010d01;
+    color: #e7eef0;
+    transition: all 0.7s ease-in-out;
+}
+
+
+
+
+.cunteiner {
+    padding: 100px 0px 0px 0px;
+}
+
+
+
+.burger {
+    background-color: rgba(61, 79, 231, 0.25);
+    color: #e7eef0;
+    position: fixed;
+    top: 105px;
+    left: -180px;
+    width: 250px;
+    height: 80px;
+    border-radius: 20px;
+    transition: all 0.2s ease-in-out;
+}
+.burger.hide {
+    left: 5px;
+    /*transform: translate(5px,0);*/
+    transition: all 0.2s ease-in-out;
+}
+.burgerIcon {
+    background-color: #b61313;
+    text-align: center;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    left: 190px;
+    top: 12px;
+    border-radius: 10px;
+}
+.burgerInfo {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 11px 0 0 10px;
+}
+.burgerInfoButton {
+    width: 150px;
+    height: 50px;
+    font-size: xx-large;
+    cursor: pointer;
+}
+.burgerInfoButton:hover{
+    background-color: #010d01;
+    color: #e7eef0;
+    transition: all 0.7s ease-in-out;
+}
+.burgerButton {
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.burgerButton:hover {
+    background-color: #010d01;
+    color: #e7eef0;
+    transition: all 0.7s ease-in-out;
+}
+
+
+.selector {
+    text-align: center;
+    color: #e7eef0;
+    background-color: rgba(37, 6, 86, 0.66);
+    padding: 100px 0 0 0;
+    font-family: Verdana;
+}
+.restFoto {
+    padding: 20px;
+}
+.restFotoImg {
+    width: 80%;
+}
+
+
+footer {
+    background-color: #9605e7ab;
+    justify-content: space-around;
+    font-family: "Courier";
+    /*text-decoration: overline;*/
+}
+.footerAchieve {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-evenly;
+}
+.footerDisplay{
+    display: flex;
+    justify-content: space-around;
+}
+.signature {
+    line-height: 100px;
+}
+.footerButton {
+    height: 100px;
+    width: 100px;
+    background-color: rgba(156, 161, 77, 0.43);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.footerButton:hover {
+    background-color: #010d01;
+    color: #06850f;
+    font-family: "Courier";
+    font-size: larger;
+}
+

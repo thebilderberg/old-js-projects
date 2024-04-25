@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/lending.css">
+</head>
+<body>
+    <div>
+        <div id="air">
+            <img class="wallImg positionA airMax" data-depth="8" src="champagne.png" originX="500" alt="">
+        </div>
+        <div id="air2">
+            <img class="wallImg positionB airMax" data-depth="15" src="champagne.png" alt="">
+        </div>
+        <div id="air3">
+            <img class="wallImg positionC airMax" data-depth="8" src="champagne.png" alt="">
+        </div>
+        <div id="air4">
+            <img class="wallImg positionD airMax" data-depth="12" src="champagne.png" alt="">
+        </div>
+        <div id="air5">
+            <img class="wallImg positionE airMax" data-depth="10" src="champagne.png" alt="">
+        </div>
+    </div>
+    <div class="menu">
+        <nav>
+            <ul>
+                <li>Контакты</li>
+                <li>Отзывы</li>
+                <li>Оферта</li>
+            </ul>
+        </nav>
+        <div class="iconBurger" onclick="holdMenu()">
+            <span></span>
+        </div>
+    </div>
+
+    <div class="up">
+      <div>
+          <h1 class="wow bounceInRight" >Olimpbet</h1>
+          <h2 class="wow bounceInRight" data-wow-duration="2s">Ставки на спорт</h2>
+          <h3 class="wow bounceInRight" data-wow-duration="3s">Бонус при первом пополнении</h3>
+      </div>
+    </div>
+    <div class="container">
+        <h1 class="wow bounceInLeft">Регистрация</h1>
+        <form class="wow bounceInRight" data-wow-delay="0.2s" method="post" action="form.php">
+            <input class="form" type="text" placeholder="Имя">
+            <br>
+            <input class="form" type="text" placeholder="Фамилия">
+            <br>
+            <input class="form" type="text" placeholder="+7(***)***-**-**">
+        </form>
+    </div>
+    <div class="main">
+        <h1 class="wow rotateInDownLeft">Иксы</h1>
+        <div class="xxx">
+            <div class="wow flipInX cali" data-wow-delay="0.2s"> </div>
+            <div class="wow flipInX cali" data-wow-delay="0.6s"> </div>
+            <div class="wow flipInX cali" data-wow-delay="1s"> </div>
+        </div>
+    </div>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script src="js/enter.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+    <script>
+        let airChop = document.getElementById('air');
+        let airChop2 = document.getElementById('air2');
+        let airChop3 = document.getElementById('air3');
+        let airChop4 = document.getElementById('air4');
+        let airChop5 = document.getElementById('air5');
+        let parallaxInstance = new Parallax(airChop);
+        let parallaxInstance2 = new Parallax(airChop2);
+        let parallaxInstance3 = new Parallax(airChop3);
+        let parallaxInstance4 = new Parallax(airChop4);
+        let parallaxInstance5 = new Parallax(airChop5);
+    </script>
+</body>
+</html>

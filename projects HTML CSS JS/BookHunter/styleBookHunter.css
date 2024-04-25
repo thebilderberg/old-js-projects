@@ -1,0 +1,110 @@
+body {
+    background: #5b0581 url(background.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    font-family: Courier;
+    width: 100%;
+    height: 100px;
+    background-color: #4f4d4d;
+    margin: 0 auto;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+
+.buttonHeaderOne, .buttonHeaderTwo, .buttonHeaderThree {
+    border-radius: 10px;
+    right: 20px;
+    padding: 0px 0px 0px 0px;
+    border: 0;
+    background-color: rgba(91, 5, 129, 0);
+}
+
+
+.ramka {
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+}
+.ramka:hover {
+    opacity: 0.60;
+    transition: all 0.2s ease-in-out;
+}
+
+
+.cunteiner {
+    width: 80%;
+    margin: 0 auto;
+    padding: 100px;
+}
+
+
+.firstBlocks {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    background-color: rgba(89, 91, 91, 0.51);
+}
+
+.board {
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+}
+
+
+.market {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.market_img {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+
+.market_img:hover {
+    opacity: 0.60;
+    transition: all 0.2s ease-in-out;
+}
+
+.secondBlock {
+    padding: 10px;
+    background-color: rgba(89, 91, 91, 0.51);
+    height: 200px;
+    text-align: center;
+}
+
+.inputWindow {
+    width: 500px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.buttonFoot {
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+}
+
+.buttonFoot:hover {
+    background-color: #1c49bb;
+    transition: all 0.2s ease-in-out;
+}
+
+footer {
+    background-color: #4f4d4d;
+    height: 100px;
+    font-size: larger;
+    font-family: Courier;
+    padding: 0 0 0 20px;
+}

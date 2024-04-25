@@ -1,0 +1,71 @@
+body {
+  background: #5b0581 url(cyber.jpg);               /* Цвет фона и путь к файлу   */
+  background-size: 100%;                            /* Растягиваем картинку       */
+  background-attachment: fixed;
+}
+
+
+.cunteiner {
+  width: 95%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: rgba(159, 159, 159, 0.63);
+  font-family: sans-serif;
+}
+
+
+.cunteinerUnderOne {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  padding: 6px 6px 6px 6px;
+}
+.cunteinerUnderOne a{
+  text-decoration: none;
+  color: #103286;
+  font-family: sans-serif;
+}
+
+
+.cunteinerUnderTwo {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 6px 6px 6px 6px;
+}
+
+.objectOne img {
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+}
+
+
+.cunteinerUnderThree {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  color: #0031a1;
+}
+
+.bottomClassOne, .bottomClassTwo, .bottomClassThree, .bottomClassFour {
+  padding: 0px 0px 0px 0px;
+  border: 0;
+  border-radius: 10px;
+  background-color: rgba(204, 204, 204, 0);
+}
+
+
+img.imgBottom {
+  border-radius: 10px;
+  padding: 0px 0px 0px 0px;
+}
+
+
+img.imgBottom:hover {
+  opacity: 0.60;
+  transition: all 0.2s ease-in-out;
+}
